@@ -1,0 +1,442 @@
+
+
+      ----------------------------- POSTMAN Request  --------------------------------------------------------
+	  
+	    create customer  --       
+			
+			URL -- /api/customer/create       --	 POST
+		
+						Body -JSON
+						
+							{
+							 "id": "4",
+							 "name": "James"
+							 }
+		
+		getALlCustomer --
+		
+			URL  --  /api/customer/getAllCustomer    -- 	GET
+					
+						[
+							{
+								"id": 1,
+								"name": "Chris"
+							},
+							{
+								"id": 2,
+								"name": "Neil"
+							},
+							{
+								"id": 3,
+								"name": "Jonathan"
+							},
+							{
+								"id": 4,
+								"name": "James"
+							}
+						]
+		
+		
+		getAllTrxn  --
+		
+			URL  --  /api/trxn/getAllTrxn
+			
+			[
+					{
+						"trxnDescription": "Notebook",
+						"trxnAmount": 20.0,
+						"trxnDate": "2020-02-22T14:20:10.000+0000",
+						"trxnId": 55489,
+						"customer": {
+							"id": 1,
+							"name": "Chris"
+						}
+					},
+					{
+						"trxnDescription": "Shoes",
+						"trxnAmount": 90.0,
+						"trxnDate": "2020-03-01T16:20:10.000+0000",
+						"trxnId": 44467,
+						"customer": {
+							"id": 1,
+							"name": "Chris"
+						}
+					},
+					{
+						"trxnDescription": "Quilt",
+						"trxnAmount": 65.0,
+						"trxnDate": "2020-04-01T18:20:10.000+0000",
+						"trxnId": 33434,
+						"customer": {
+							"id": 1,
+							"name": "Chris"
+						}
+					},
+					{
+						"trxnDescription": "Mattress",
+						"trxnAmount": 180.0,
+						"trxnDate": "2020-04-03T15:20:10.000+0000",
+						"trxnId": 23456,
+						"customer": {
+							"id": 1,
+							"name": "Chris"
+						}
+					},
+					{
+						"trxnDescription": "Fruits",
+						"trxnAmount": 145.0,
+						"trxnDate": "2020-01-25T00:20:10.000+0000",
+						"trxnId": 63330,
+						"customer": {
+							"id": 2,
+							"name": "Neil"
+						}
+					},
+					{
+						"trxnDescription": "Grocery",
+						"trxnAmount": 220.0,
+						"trxnDate": "2020-02-12T14:20:10.000+0000",
+						"trxnId": 55889,
+						"customer": {
+							"id": 2,
+							"name": "Neil"
+						}
+					},
+					{
+						"trxnDescription": "Electric Cooker",
+						"trxnAmount": 110.0,
+						"trxnDate": "2020-03-22T15:20:10.000+0000",
+						"trxnId": 44777,
+						"customer": {
+							"id": 2,
+							"name": "Neil"
+						}
+					},
+					{
+						"trxnDescription": "Stool",
+						"trxnAmount": 85.0,
+						"trxnDate": "2020-03-30T18:20:10.000+0000",
+						"trxnId": 36674,
+						"customer": {
+							"id": 2,
+							"name": "Neil"
+						}
+					},
+					{
+						"trxnDescription": "Vacum Cleaner",
+						"trxnAmount": 480.0,
+						"trxnDate": "2020-04-01T15:20:10.000+0000",
+						"trxnId": 23356,
+						"customer": {
+							"id": 2,
+							"name": "Neil"
+						}
+					},
+					{
+						"trxnDescription": "Fridge",
+						"trxnAmount": 330.0,
+						"trxnDate": "2020-02-12T14:20:10.000+0000",
+						"trxnId": 59899,
+						"customer": {
+							"id": 3,
+							"name": "Jonathan"
+						}
+					},
+					{
+						"trxnDescription": "Chair",
+						"trxnAmount": 90.0,
+						"trxnDate": "2020-03-02T02:20:10.000+0000",
+						"trxnId": 44678,
+						"customer": {
+							"id": 3,
+							"name": "Jonathan"
+						}
+					},
+					{
+						"trxnDescription": "TV",
+						"trxnAmount": 210.0,
+						"trxnDate": "2020-04-02T18:20:10.000+0000",
+						"trxnId": 33444,
+						"customer": {
+							"id": 3,
+							"name": "Jonathan"
+						}
+					},
+					{
+						"trxnDescription": "Pillow",
+						"trxnAmount": 80.0,
+						"trxnDate": "2020-04-03T15:20:10.000+0000",
+						"trxnId": 26565,
+						"customer": {
+							"id": 3,
+							"name": "Jonathan"
+						}
+					}
+			]
+			
+			
+			
+		getLastThreeMonthAllTrxn  --
+		
+			URL  --  /api/trxn/getLastThreeMonthAlllTrxn
+			
+			[
+				{
+					"trxnDescription": "Vacum Cleaner",
+					"trxnAmount": 480.0,
+					"trxnDate": "2020-04-01T15:20:10.000+0000",
+					"trxnId": 23356,
+					"customer": {
+						"id": 2,
+						"name": "Neil"
+					}
+				},
+				{
+					"trxnDescription": "Mattress",
+					"trxnAmount": 180.0,
+					"trxnDate": "2020-04-03T15:20:10.000+0000",
+					"trxnId": 23456,
+					"customer": {
+						"id": 1,
+						"name": "Chris"
+					}
+				},
+				{
+					"trxnDescription": "Pillow",
+					"trxnAmount": 80.0,
+					"trxnDate": "2020-04-03T15:20:10.000+0000",
+					"trxnId": 26565,
+					"customer": {
+						"id": 3,
+						"name": "Jonathan"
+					}
+				},
+				{
+					"trxnDescription": "Quilt",
+					"trxnAmount": 65.0,
+					"trxnDate": "2020-04-01T18:20:10.000+0000",
+					"trxnId": 33434,
+					"customer": {
+						"id": 1,
+						"name": "Chris"
+					}
+				},
+				{
+					"trxnDescription": "TV",
+					"trxnAmount": 210.0,
+					"trxnDate": "2020-04-02T18:20:10.000+0000",
+					"trxnId": 33444,
+					"customer": {
+						"id": 3,
+						"name": "Jonathan"
+					}
+				},
+				{
+					"trxnDescription": "Stool",
+					"trxnAmount": 85.0,
+					"trxnDate": "2020-03-30T18:20:10.000+0000",
+					"trxnId": 36674,
+					"customer": {
+						"id": 2,
+						"name": "Neil"
+					}
+				},
+				{
+					"trxnDescription": "Shoes",
+					"trxnAmount": 90.0,
+					"trxnDate": "2020-03-01T16:20:10.000+0000",
+					"trxnId": 44467,
+					"customer": {
+						"id": 1,
+						"name": "Chris"
+					}
+				},
+				{
+					"trxnDescription": "Chair",
+					"trxnAmount": 90.0,
+					"trxnDate": "2020-03-02T02:20:10.000+0000",
+					"trxnId": 44678,
+					"customer": {
+						"id": 3,
+						"name": "Jonathan"
+					}
+				},
+				{
+					"trxnDescription": "Electric Cooker",
+					"trxnAmount": 110.0,
+					"trxnDate": "2020-03-22T15:20:10.000+0000",
+					"trxnId": 44777,
+					"customer": {
+						"id": 2,
+						"name": "Neil"
+					}
+				},
+				{
+					"trxnDescription": "Notebook",
+					"trxnAmount": 20.0,
+					"trxnDate": "2020-02-22T14:20:10.000+0000",
+					"trxnId": 55489,
+					"customer": {
+						"id": 1,
+						"name": "Chris"
+					}
+				},
+				{
+					"trxnDescription": "Grocery",
+					"trxnAmount": 220.0,
+					"trxnDate": "2020-02-12T14:20:10.000+0000",
+					"trxnId": 55889,
+					"customer": {
+						"id": 2,
+						"name": "Neil"
+					}
+				},
+				{
+					"trxnDescription": "Fridge",
+					"trxnAmount": 330.0,
+					"trxnDate": "2020-02-12T14:20:10.000+0000",
+					"trxnId": 59899,
+					"customer": {
+						"id": 3,
+						"name": "Jonathan"
+					}
+				},
+				{
+					"trxnDescription": "Shirt",
+					"trxnAmount": 55.0,
+					"trxnDate": "2020-01-02T00:20:10.000+0000",
+					"trxnId": 61230,
+					"customer": {
+						"id": 3,
+						"name": "Jonathan"
+					}
+				},
+				{
+					"trxnDescription": "Fruits",
+					"trxnAmount": 145.0,
+					"trxnDate": "2020-01-25T00:20:10.000+0000",
+					"trxnId": 63330,
+					"customer": {
+						"id": 2,
+						"name": "Neil"
+					}
+				},
+				{
+					"trxnDescription": "LunchBox",
+					"trxnAmount": 45.0,
+					"trxnDate": "2020-01-05T00:20:10.000+0000",
+					"trxnId": 66410,
+					"customer": {
+						"id": 1,
+						"name": "Chris"
+					}
+				}
+		]
+		
+		
+	  getUserWiseRewardPointList  --
+		
+			URL  --  /api/trxn/getUserWiseRewardPoints
+			
+		[
+				{
+					"customer": {
+						"id": 1,
+						"name": "Chris"
+					},
+					"monthName": "FEBRUARY",
+					"monthlyTrxnAmount": 20.0,
+					"monthlyRewardPoints": 0,
+					"totalRewardPoints": 0
+				},
+				{
+					"customer": {
+						"id": 1,
+						"name": "Chris"
+					},
+					"monthName": "MARCH",
+					"monthlyTrxnAmount": 90.0,
+					"monthlyRewardPoints": 0,
+					"totalRewardPoints": 0
+				},
+				{
+					"customer": {
+						"id": 1,
+						"name": "Chris"
+					},
+					"monthName": "APRIL",
+					"monthlyTrxnAmount": 245.0,
+					"monthlyRewardPoints": 210,
+					"totalRewardPoints": 210
+				},
+				{
+					"customer": {
+						"id": 2,
+						"name": "Neil"
+					},
+					"monthName": "JANUARY",
+					"monthlyTrxnAmount": 145.0,
+					"monthlyRewardPoints": 140,
+					"totalRewardPoints": 140
+				},
+				{
+					"customer": {
+						"id": 2,
+						"name": "Neil"
+					},
+					"monthName": "FEBRUARY",
+					"monthlyTrxnAmount": 220.0,
+					"monthlyRewardPoints": 90,
+					"totalRewardPoints": 230
+				},
+				{
+					"customer": {
+						"id": 2,
+						"name": "Neil"
+					},
+					"monthName": "MARCH",
+					"monthlyTrxnAmount": 195.0,
+					"monthlyRewardPoints": 70,
+					"totalRewardPoints": 300
+				},
+				{
+					"customer": {
+						"id": 2,
+						"name": "Neil"
+					},
+					"monthName": "APRIL",
+					"monthlyTrxnAmount": 480.0,
+					"monthlyRewardPoints": 210,
+					"totalRewardPoints": 510
+				},
+				{
+					"customer": {
+						"id": 3,
+						"name": "Jonathan"
+					},
+					"monthName": "FEBRUARY",
+					"monthlyTrxnAmount": 330.0,
+					"monthlyRewardPoints": 110,
+					"totalRewardPoints": 110
+				},
+				{
+					"customer": {
+						"id": 3,
+						"name": "Jonathan"
+					},
+					"monthName": "MARCH",
+					"monthlyTrxnAmount": 90.0,
+					"monthlyRewardPoints": 0,
+					"totalRewardPoints": 110
+				},
+				{
+					"customer": {
+						"id": 3,
+						"name": "Jonathan"
+					},
+					"monthName": "APRIL",
+					"monthlyTrxnAmount": 290.0,
+					"monthlyRewardPoints": 70,
+					"totalRewardPoints": 180
+				}
+		]
