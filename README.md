@@ -31,7 +31,7 @@ Given a record of every transaction during a three month period, calculate the r
 ###To Run this project locally
 ```shell
 $ git clone https://github.com/RaviKhare/rewardpoint-app.git
-$ mvn spring-boot: run
+$ mvn spring-boot:run
 
        
       
