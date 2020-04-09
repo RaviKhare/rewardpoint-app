@@ -16,7 +16,7 @@ import com.sun.rewardpoint.model.Customer;
 import com.sun.rewardpoint.service.impl.CustomerServiceImpl;
 
 /**
- * @author rk250449
+ * @author rk
  *
  */
 

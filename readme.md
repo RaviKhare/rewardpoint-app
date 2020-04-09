@@ -24,7 +24,7 @@ Given a record of every transaction during a three month period, calculate the r
        *  Get all customer details
        *  Get all trxn details
        *  Get last three month trxn details
-       *  Get user wise reward point details for last three month
+       *  Get reward point details 
        
        
        

@@ -336,9 +336,9 @@
 		
 	  getUserWiseRewardPointList  --
 		
-			URL  --  /api/trxn/getUserWiseRewardPoints
+			URL  --  /api/trxn/getRewardPointDetails
 			
-		[
+			[
 				{
 					"customer": {
 						"id": 1,
@@ -356,8 +356,8 @@
 					},
 					"monthName": "MARCH",
 					"monthlyTrxnAmount": 90.0,
-					"monthlyRewardPoints": 0,
-					"totalRewardPoints": 0
+					"monthlyRewardPoints": 40,
+					"totalRewardPoints": 40
 				},
 				{
 					"customer": {
@@ -366,8 +366,8 @@
 					},
 					"monthName": "APRIL",
 					"monthlyTrxnAmount": 245.0,
-					"monthlyRewardPoints": 210,
-					"totalRewardPoints": 210
+					"monthlyRewardPoints": 225,
+					"totalRewardPoints": 265
 				},
 				{
 					"customer": {
@@ -386,8 +386,8 @@
 					},
 					"monthName": "FEBRUARY",
 					"monthlyTrxnAmount": 220.0,
-					"monthlyRewardPoints": 90,
-					"totalRewardPoints": 230
+					"monthlyRewardPoints": 290,
+					"totalRewardPoints": 430
 				},
 				{
 					"customer": {
@@ -396,8 +396,8 @@
 					},
 					"monthName": "MARCH",
 					"monthlyTrxnAmount": 195.0,
-					"monthlyRewardPoints": 70,
-					"totalRewardPoints": 300
+					"monthlyRewardPoints": 105,
+					"totalRewardPoints": 535
 				},
 				{
 					"customer": {
@@ -406,8 +406,8 @@
 					},
 					"monthName": "APRIL",
 					"monthlyTrxnAmount": 480.0,
-					"monthlyRewardPoints": 210,
-					"totalRewardPoints": 510
+					"monthlyRewardPoints": 810,
+					"totalRewardPoints": 1345
 				},
 				{
 					"customer": {
@@ -416,8 +416,8 @@
 					},
 					"monthName": "FEBRUARY",
 					"monthlyTrxnAmount": 330.0,
-					"monthlyRewardPoints": 110,
-					"totalRewardPoints": 110
+					"monthlyRewardPoints": 510,
+					"totalRewardPoints": 510
 				},
 				{
 					"customer": {
@@ -426,8 +426,8 @@
 					},
 					"monthName": "MARCH",
 					"monthlyTrxnAmount": 90.0,
-					"monthlyRewardPoints": 0,
-					"totalRewardPoints": 110
+					"monthlyRewardPoints": 40,
+					"totalRewardPoints": 550
 				},
 				{
 					"customer": {
@@ -436,7 +436,7 @@
 					},
 					"monthName": "APRIL",
 					"monthlyTrxnAmount": 290.0,
-					"monthlyRewardPoints": 70,
-					"totalRewardPoints": 180
+					"monthlyRewardPoints": 300,
+					"totalRewardPoints": 850
 				}
-		]
+			]

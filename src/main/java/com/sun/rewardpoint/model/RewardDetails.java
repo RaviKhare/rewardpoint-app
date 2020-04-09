@@ -4,15 +4,15 @@
 package com.sun.rewardpoint.model;
 
 /**
- * @author rk250449
+ * @author rk
  *
  */
 public class RewardDetails {
 	private Customer customer;
 	private String monthName;
 	private Double monthlyTrxnAmount;
-	private Integer monthlyRewardPoints;
-	private Integer totalRewardPoints;
+	private Long monthlyRewardPoints;
+	private Long totalRewardPoints;
 	
 	
 	
@@ -22,8 +22,8 @@ public class RewardDetails {
 	 * @param monthlRewardPoints
 	 * @param totalRewardPoints
 	 */
-	public RewardDetails(Customer customer, String monthName, Double monthlyTrxnAmount, Integer monthlRewardPoints,
-			Integer totalRewardPoints) {
+	public RewardDetails(Customer customer, String monthName, Double monthlyTrxnAmount, Long monthlRewardPoints,
+			Long totalRewardPoints) {
 		super();
 		this.customer = customer;
 		this.monthName = monthName;
@@ -53,16 +53,16 @@ public class RewardDetails {
 	public void setMonthlyTrxnAmount(Double monthlyTrxnAmount) {
 		this.monthlyTrxnAmount = monthlyTrxnAmount;
 	}
-	public Integer getMonthlyRewardPoints() {
+	public Long getMonthlyRewardPoints() {
 		return monthlyRewardPoints;
 	}
-	public void setMonthlyRewardPoints(Integer monthlyRewardPoints) {
+	public void setMonthlyRewardPoints(Long monthlyRewardPoints) {
 		this.monthlyRewardPoints = monthlyRewardPoints;
 	}
-	public Integer getTotalRewardPoints() {
+	public Long getTotalRewardPoints() {
 		return totalRewardPoints;
 	}
-	public void setTotalRewardPoints(Integer totalRewardPoints) {
+	public void setTotalRewardPoints(Long totalRewardPoints) {
 		this.totalRewardPoints = totalRewardPoints;
 	}
 

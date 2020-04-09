@@ -6,17 +6,20 @@ package com.sun.rewardpoint.service;
 import java.util.LinkedList;
 import java.util.List;
 
+import com.sun.rewardpoint.model.RewardDetails;
 import com.sun.rewardpoint.model.TransactionDetails;
 
 /**
- * @author rk250449
+ * @author rk
  *
  */
 
 public interface TransactionService{
 	
-		public List<TransactionDetails> getAllTransactionDetails() ;
+		List<TransactionDetails> getAllTransactionDetails() ;
 
-		public LinkedList<TransactionDetails> getLastThreeMonthAllTrxns() ;
+		LinkedList<TransactionDetails> getLastThreeMonthAllTrxns() ;
+		
+		List<RewardDetails> getRewardPointDetails();
 	    
 	}

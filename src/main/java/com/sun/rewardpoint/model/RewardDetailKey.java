@@ -4,7 +4,7 @@
 package com.sun.rewardpoint.model;
 
 /**
- * @author rk250449
+ * @author rk
  *
  */
 public final class RewardDetailKey {

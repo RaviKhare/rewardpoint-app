@@ -16,7 +16,7 @@ import com.sun.rewardpoint.service.impl.TransactionServiceImpl;
 
 
 /**
- * @author rk250449
+ * @author rk
  *
  */
 
@@ -45,8 +45,8 @@ public class TransactionController {
 		return transactionService.getAllTransactionDetails();
 	}
 	
-	@GetMapping(path="/getUserWiseRewardPoints")
-	public List<RewardDetails> calculateUserWiseRewardPoints() {
-		return	transactionService.calculateUserWiseRewardPoints();
+	@GetMapping(path="/getRewardPointDetails")
+	public List<RewardDetails> getRewardPointDetails() {
+		return	transactionService.getRewardPointDetails();
 	}	
 }

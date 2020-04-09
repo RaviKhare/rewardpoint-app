@@ -8,7 +8,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import com.sun.rewardpoint.model.Customer;
 
 /**
- * @author rk250449
+ * @author rk
  *
  */
 public interface CustomerRepository extends JpaRepository<Customer, Long> {

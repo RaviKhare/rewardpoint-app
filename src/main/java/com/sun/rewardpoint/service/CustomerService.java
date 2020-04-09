@@ -8,7 +8,7 @@ import java.util.List;
 import com.sun.rewardpoint.model.Customer;
 
 /**
- * @author rk250449
+ * @author rk
  *
  */
 

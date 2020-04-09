@@ -13,7 +13,7 @@ import org.springframework.data.repository.query.Param;
 import com.sun.rewardpoint.model.TransactionDetails;
 
 /**
- * @author rk250449
+ * @author rk
  *
  */
 

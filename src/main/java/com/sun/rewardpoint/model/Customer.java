@@ -10,7 +10,7 @@ import javax.persistence.Id;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 /**
- * @author rk250449
+ * @author rk
  *
  */
 

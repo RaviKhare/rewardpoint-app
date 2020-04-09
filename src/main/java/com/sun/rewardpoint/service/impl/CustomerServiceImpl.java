@@ -13,7 +13,7 @@ import com.sun.rewardpoint.repository.CustomerRepository;
 import com.sun.rewardpoint.service.CustomerService;
 
 /**
- * @author rk250449
+ * @author rk
  *
  */
 
