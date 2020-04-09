@@ -8,15 +8,12 @@ A customer receives 2 points for every dollar spent over $100 in each transactio
 (e.g. a $120 purchase = 2x$20 + 1x$50 = 90 points).
  
 Given a record of every transaction during a three month period, calculate the reward points earned for each customer per month and total.
- 
-•             Make up a data set to best demonstrate your solution
-•             Check solution into GitHub
-•             Solve using Spring/SpringBoot
+
 
 # it is build upon using 
       *  Spring, Spring Boot, REST, H2 database
       *  Could verify through Postman request 
-      *  It has built in data.sql  (for dummy data )
+      *  It has built in data.sql  (for reward point calculation data )
       
   We can perform all give below through Postman request
       
